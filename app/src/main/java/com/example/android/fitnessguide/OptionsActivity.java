@@ -60,6 +60,7 @@ public class OptionsActivity extends AppCompatActivity {
                 }
                 else{
                     Intent i=new Intent(OptionsActivity.this,WorkoutHighActivity.class);
+                    Toast.makeText(getApplicationContext(),"High",Toast.LENGTH_SHORT).show();
                     startActivity(i);
                 }
             }

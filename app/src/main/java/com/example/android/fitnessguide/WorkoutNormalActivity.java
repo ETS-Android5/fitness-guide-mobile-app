@@ -19,14 +19,14 @@ public class WorkoutNormalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_normalworkout);
-        VideoView videoView = findViewById(R.id.videoView1);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.worknormal;
-        Uri uri = Uri.parse(videoPath);
-        videoView.setVideoURI(uri);
+        VideoView player = (VideoView) findViewById(R.id.videoplayer);
+        String path ="android.resource://"+ getPackageName()+"/"+R.raw.worknormal;
+        player.setVideoPath(path);
 
         MediaController mediaController = new MediaController(this);
-        videoView.setMediaController(mediaController);
-        mediaController.setAnchorView(videoView);
+        player.setMediaController(mediaController);
+        mediaController.setAnchorView(player);
+        player.start();
 
     }
 }

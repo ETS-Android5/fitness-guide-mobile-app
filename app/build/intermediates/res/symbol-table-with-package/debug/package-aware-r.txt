@@ -1031,7 +1031,7 @@ id tv_steps
 id uniform
 id up
 id useLogo
-id videoView1
+id videoplayer
 id view_offset_helper
 id visible
 id weightedittext
@@ -1080,12 +1080,12 @@ layout activity_accelerometer
 layout activity_diethigh
 layout activity_dietlow
 layout activity_dietnormal
-layout activity_highworkout
 layout activity_login
 layout activity_normalworkout
 layout activity_options
 layout activity_register
 layout activity_users_list
+layout activity_workout_high
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1122,7 +1122,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
-raw workhigh
+raw video
 raw worknormal
 string abc_action_bar_home_description
 string abc_action_bar_up_description

@@ -1030,7 +1030,7 @@ int id tv_steps 0x7f0800d1
 int id uniform 0x7f0800d2
 int id up 0x7f0800d3
 int id useLogo 0x7f0800d4
-int id videoView1 0x7f0800d5
+int id videoplayer 0x7f0800d5
 int id view_offset_helper 0x7f0800d6
 int id visible 0x7f0800d7
 int id weightedittext 0x7f0800d8
@@ -1079,12 +1079,12 @@ int layout activity_accelerometer 0x7f0a001b
 int layout activity_diethigh 0x7f0a001c
 int layout activity_dietlow 0x7f0a001d
 int layout activity_dietnormal 0x7f0a001e
-int layout activity_highworkout 0x7f0a001f
-int layout activity_login 0x7f0a0020
-int layout activity_normalworkout 0x7f0a0021
-int layout activity_options 0x7f0a0022
-int layout activity_register 0x7f0a0023
-int layout activity_users_list 0x7f0a0024
+int layout activity_login 0x7f0a001f
+int layout activity_normalworkout 0x7f0a0020
+int layout activity_options 0x7f0a0021
+int layout activity_register 0x7f0a0022
+int layout activity_users_list 0x7f0a0023
+int layout activity_workout_high 0x7f0a0024
 int layout design_bottom_navigation_item 0x7f0a0025
 int layout design_bottom_sheet_dialog 0x7f0a0026
 int layout design_layout_snackbar 0x7f0a0027
@@ -1121,7 +1121,7 @@ int layout select_dialog_singlechoice_material 0x7f0a0045
 int layout support_simple_spinner_dropdown_item 0x7f0a0046
 int mipmap ic_launcher 0x7f0b0000
 int mipmap ic_launcher_round 0x7f0b0001
-int raw workhigh 0x7f0c0000
+int raw video 0x7f0c0000
 int raw worknormal 0x7f0c0001
 int string abc_action_bar_home_description 0x7f0d0000
 int string abc_action_bar_up_description 0x7f0d0001

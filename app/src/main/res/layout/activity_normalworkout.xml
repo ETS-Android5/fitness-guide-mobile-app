@@ -1,19 +1,19 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
-
+    tools:context=".WorkoutNormalActivity">
     <VideoView
-        android:id="@+id/videoView1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/videoplayer"
         android:layout_height="300dp"
-        android:layout_centerVertical="true"
-        android:layout_margin="20dp"
-        android:layout_centerHorizontal="true" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
 
-
-
-
-</ScrollView>
-
+</android.support.constraint.ConstraintLayout>

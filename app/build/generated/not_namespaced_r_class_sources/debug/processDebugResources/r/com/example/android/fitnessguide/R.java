@@ -3965,7 +3965,7 @@ public final class R {
     public static final int uniform=0x7f0800d2;
     public static final int up=0x7f0800d3;
     public static final int useLogo=0x7f0800d4;
-    public static final int videoView1=0x7f0800d5;
+    public static final int videoplayer=0x7f0800d5;
     public static final int view_offset_helper=0x7f0800d6;
     public static final int visible=0x7f0800d7;
     public static final int weightedittext=0x7f0800d8;
@@ -4018,12 +4018,12 @@ public final class R {
     public static final int activity_diethigh=0x7f0a001c;
     public static final int activity_dietlow=0x7f0a001d;
     public static final int activity_dietnormal=0x7f0a001e;
-    public static final int activity_highworkout=0x7f0a001f;
-    public static final int activity_login=0x7f0a0020;
-    public static final int activity_normalworkout=0x7f0a0021;
-    public static final int activity_options=0x7f0a0022;
-    public static final int activity_register=0x7f0a0023;
-    public static final int activity_users_list=0x7f0a0024;
+    public static final int activity_login=0x7f0a001f;
+    public static final int activity_normalworkout=0x7f0a0020;
+    public static final int activity_options=0x7f0a0021;
+    public static final int activity_register=0x7f0a0022;
+    public static final int activity_users_list=0x7f0a0023;
+    public static final int activity_workout_high=0x7f0a0024;
     public static final int design_bottom_navigation_item=0x7f0a0025;
     public static final int design_bottom_sheet_dialog=0x7f0a0026;
     public static final int design_layout_snackbar=0x7f0a0027;
@@ -4064,7 +4064,7 @@ public final class R {
     public static final int ic_launcher_round=0x7f0b0001;
   }
   public static final class raw {
-    public static final int workhigh=0x7f0c0000;
+    public static final int video=0x7f0c0000;
     public static final int worknormal=0x7f0c0001;
   }
   public static final class string {
